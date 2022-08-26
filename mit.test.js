@@ -22,8 +22,8 @@ describe('MIT', () => {
     });
 
     test('Founded range', () => {
-        expect(mit.founded).toBeLessThanOrEqual(1861);
-        expect(mit.founded).toBeGreaterThanOrEqual(1861);    
+        expect(mit.founded).toBeLessThanOrEqual(1875);
+        expect(mit.founded).toBeGreaterThanOrEqual(1850);    
     });
 
     test('Motto', () => {
