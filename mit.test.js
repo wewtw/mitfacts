@@ -13,13 +13,17 @@ describe('MIT', () => {
         expect(mit.city).toBe('Cambridge');
     });
 
+    test('Mascot match', () => {
+        expect(mit.mascot).toBe('Tim the Beaver');
+    });
+
     test('Colors match', () => {
         expect(mit.colors).toContain('Silver Gray');    
     });
 
     test('Founded range', () => {
-        expect(mit.founded).toBeLessThanOrEqual(1875);
-        expect(mit.founded).toBeGreaterThanOrEqual(1850);    
+        expect(mit.founded).toBeLessThanOrEqual(1861);
+        expect(mit.founded).toBeGreaterThanOrEqual(1861);    
     });
 
     test('Motto', () => {
